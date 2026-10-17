@@ -1,4 +1,6 @@
-name: Build mod
+- name: Build
+  run: gradle build --no-daemon
+  working-directory: nama-subfolder
 
 on:
   push:
