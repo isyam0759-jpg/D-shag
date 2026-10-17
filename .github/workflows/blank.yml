@@ -33,4 +33,3 @@ jobs:
           name: sirenhead-jar
           path: build/libs/sirenhead-*.jar
           if-no-files-found: error
-
